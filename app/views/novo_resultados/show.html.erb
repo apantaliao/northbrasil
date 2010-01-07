@@ -1,0 +1,28 @@
+<p>
+  <b>Equipe:</b>
+  <%=h @novo_resultado.equipe %>
+</p>
+
+<p>
+  <b>Etapa:</b>
+  <%=h @novo_resultado.etapa %>
+</p>
+
+<p>
+  <b>Cidade:</b>
+  <%=h @novo_resultado.cidade %>
+</p>
+
+<p>
+  <b>Pontos:</b>
+  <%=h @novo_resultado.pontos %>
+</p>
+
+<p>
+  <b>Posicao:</b>
+  <%=h @novo_resultado.posicao %>
+</p>
+
+
+<%= link_to 'Edit', edit_novo_resultado_path(@novo_resultado) %> |
+<%= link_to 'Back', novo_resultados_path %>

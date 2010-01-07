@@ -1,0 +1,28 @@
+<h1>Listing novo_resultados</h1>
+
+<table>
+  <tr>
+    <th>Equipe</th>
+    <th>Etapa</th>
+    <th>Cidade</th>
+    <th>Pontos</th>
+    <th>Posicao</th>
+  </tr>
+
+<% @novo_resultados.each do |novo_resultado| %>
+  <tr>
+    <td><%=h novo_resultado.equipe %></td>
+    <td><%=h novo_resultado.etapa %></td>
+    <td><%=h novo_resultado.cidade %></td>
+    <td><%=h novo_resultado.pontos %></td>
+    <td><%=h novo_resultado.posicao %></td>
+    <td><%= link_to 'Show', novo_resultado %></td>
+    <td><%= link_to 'Edit', edit_novo_resultado_path(novo_resultado) %></td>
+    <td><%= link_to 'Destroy', novo_resultado, :confirm => 'Are you sure?', :method => :delete %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New novo_resultado', new_novo_resultado_path %>

@@ -1,0 +1,15 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+one:
+  equipe: MyString
+  etapa: 1
+  cidade: MyString
+  pontos: 1
+  posicao: 1
+
+two:
+  equipe: MyString
+  etapa: 1
+  cidade: MyString
+  pontos: 1
+  posicao: 1

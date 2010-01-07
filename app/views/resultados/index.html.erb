@@ -1,0 +1,53 @@
+<h1>Ranking#index</h1>
+<table border="1">
+	<tr> 
+		<td>
+			Etapa
+		</td>
+
+		<td>
+			Equipe
+		</td>
+
+		<td>
+			Cidade
+		</td>
+
+		<td>
+			Posicao
+		</td>
+
+		<td>
+			Pontos
+		</td>
+	</tr>
+
+<% @resultados.each do |resultado| %>
+	<tr> 
+		<td>
+		       <%= link_to resultado.etapa, :action => 'filter', :id => resultado.etapa, :criterio => 'etapa'  %>
+
+		</td>
+
+		<td>
+			<%= link_to resultado.equipe, :action => 'filter', :id => resultado.equipe, :criterio => 'equipe'  %>
+		</td>
+
+		<td>
+			<%= link_to resultado.cidade, :action => 'filter', :id => resultado.cidade, :criterio => 'cidade'  %>
+		</td>
+
+		<td>
+			<%= resultado.posicao%>
+		</td>
+
+		<td>
+			<%= resultado.pontos%>
+		</td>
+	</tr>
+<% end %>
+
+ 
+	
+</table>
+

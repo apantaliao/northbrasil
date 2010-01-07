@@ -1,0 +1,1135 @@
+/!\ FAILSAFE /!\  Wed Jan 06 19:06:48 -0200 2010
+  Status: 500 Internal Server Error
+  Access denied for user 'root'@'localhost' (using password: NO)
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/connection_adapters/mysql_adapter.rb:576:in `real_connect'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/connection_adapters/mysql_adapter.rb:576:in `connect'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/connection_adapters/mysql_adapter.rb:204:in `initialize'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/connection_adapters/mysql_adapter.rb:76:in `new'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/connection_adapters/mysql_adapter.rb:76:in `mysql_connection'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:223:in `send'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:223:in `new_connection'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:245:in `checkout_new_connection'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:188:in `checkout'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:184:in `loop'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:184:in `checkout'
+    /usr/lib/ruby/1.8/monitor.rb:242:in `synchronize'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:183:in `checkout'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:98:in `connection'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:326:in `retrieve_connection'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/connection_adapters/abstract/connection_specification.rb:123:in `retrieve_connection'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/connection_adapters/abstract/connection_specification.rb:115:in `connection'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/query_cache.rb:9:in `cache'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/query_cache.rb:28:in `call'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:361:in `call'
+    /home/andre/.gem/ruby/1.8/gems/rack-1.0.0/lib/rack/head.rb:9:in `call'
+    /home/andre/.gem/ruby/1.8/gems/rack-1.0.0/lib/rack/methodoverride.rb:24:in `call'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/params_parser.rb:15:in `call'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/rewindable_input.rb:25:in `call'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/session/cookie_store.rb:93:in `call'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/reloader.rb:9:in `call'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/failsafe.rb:11:in `call'
+    /home/andre/.gem/ruby/1.8/gems/rack-1.0.0/lib/rack/lock.rb:11:in `call'
+    /home/andre/.gem/ruby/1.8/gems/rack-1.0.0/lib/rack/lock.rb:11:in `synchronize'
+    /home/andre/.gem/ruby/1.8/gems/rack-1.0.0/lib/rack/lock.rb:11:in `call'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/dispatcher.rb:106:in `call'
+    /usr/lib/ruby/gems/1.8/gems/rails-2.3.2/lib/rails/rack/static.rb:31:in `call'
+    /home/andre/.gem/ruby/1.8/gems/rack-1.0.0/lib/rack/urlmap.rb:46:in `call'
+    /home/andre/.gem/ruby/1.8/gems/rack-1.0.0/lib/rack/urlmap.rb:40:in `each'
+    /home/andre/.gem/ruby/1.8/gems/rack-1.0.0/lib/rack/urlmap.rb:40:in `call'
+    /usr/lib/ruby/gems/1.8/gems/rails-2.3.2/lib/rails/rack/log_tailer.rb:17:in `call'
+    /home/andre/.gem/ruby/1.8/gems/rack-1.0.0/lib/rack/content_length.rb:13:in `call'
+    /home/andre/.gem/ruby/1.8/gems/rack-1.0.0/lib/rack/handler/webrick.rb:46:in `service'
+    /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+    /home/andre/.gem/ruby/1.8/gems/rack-1.0.0/lib/rack/handler/webrick.rb:13:in `run'
+    /usr/lib/ruby/gems/1.8/gems/rails-2.3.2/lib/commands/server.rb:111
+    /usr/local/lib/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    /usr/local/lib/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+    script/server:3
+/!\ FAILSAFE /!\  Wed Jan 06 19:06:59 -0200 2010
+  Status: 500 Internal Server Error
+  Access denied for user 'root'@'localhost' (using password: NO)
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/connection_adapters/mysql_adapter.rb:576:in `real_connect'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/connection_adapters/mysql_adapter.rb:576:in `connect'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/connection_adapters/mysql_adapter.rb:204:in `initialize'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/connection_adapters/mysql_adapter.rb:76:in `new'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/connection_adapters/mysql_adapter.rb:76:in `mysql_connection'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:223:in `send'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:223:in `new_connection'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:245:in `checkout_new_connection'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:188:in `checkout'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:184:in `loop'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:184:in `checkout'
+    /usr/lib/ruby/1.8/monitor.rb:242:in `synchronize'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:183:in `checkout'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:98:in `connection'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:326:in `retrieve_connection'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/connection_adapters/abstract/connection_specification.rb:123:in `retrieve_connection'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/connection_adapters/abstract/connection_specification.rb:115:in `connection'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/query_cache.rb:9:in `cache'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/query_cache.rb:28:in `call'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:361:in `call'
+    /home/andre/.gem/ruby/1.8/gems/rack-1.0.0/lib/rack/head.rb:9:in `call'
+    /home/andre/.gem/ruby/1.8/gems/rack-1.0.0/lib/rack/methodoverride.rb:24:in `call'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/params_parser.rb:15:in `call'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/rewindable_input.rb:25:in `call'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/session/cookie_store.rb:93:in `call'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/reloader.rb:9:in `call'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/failsafe.rb:11:in `call'
+    /home/andre/.gem/ruby/1.8/gems/rack-1.0.0/lib/rack/lock.rb:11:in `call'
+    /home/andre/.gem/ruby/1.8/gems/rack-1.0.0/lib/rack/lock.rb:11:in `synchronize'
+    /home/andre/.gem/ruby/1.8/gems/rack-1.0.0/lib/rack/lock.rb:11:in `call'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/dispatcher.rb:106:in `call'
+    /usr/lib/ruby/gems/1.8/gems/rails-2.3.2/lib/rails/rack/static.rb:31:in `call'
+    /home/andre/.gem/ruby/1.8/gems/rack-1.0.0/lib/rack/urlmap.rb:46:in `call'
+    /home/andre/.gem/ruby/1.8/gems/rack-1.0.0/lib/rack/urlmap.rb:40:in `each'
+    /home/andre/.gem/ruby/1.8/gems/rack-1.0.0/lib/rack/urlmap.rb:40:in `call'
+    /usr/lib/ruby/gems/1.8/gems/rails-2.3.2/lib/rails/rack/log_tailer.rb:17:in `call'
+    /home/andre/.gem/ruby/1.8/gems/rack-1.0.0/lib/rack/content_length.rb:13:in `call'
+    /home/andre/.gem/ruby/1.8/gems/rack-1.0.0/lib/rack/handler/webrick.rb:46:in `service'
+    /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+    /home/andre/.gem/ruby/1.8/gems/rack-1.0.0/lib/rack/handler/webrick.rb:13:in `run'
+    /usr/lib/ruby/gems/1.8/gems/rails-2.3.2/lib/commands/server.rb:111
+    /usr/local/lib/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    /usr/local/lib/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+    script/server:3
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing Rails::InfoController#properties (for 127.0.0.1 at 2010-01-06 19:14:08) [GET]
+  [4;36;1mSQL (0.7ms)[0m   [0;1mSHOW TABLES[0m
+Completed in 156ms (View: 21, DB: 1) | 200 OK [http://localhost/rails/info/properties]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-01-06 19:14:17) [GET]
+
+ActionController::RoutingError (No route matches "/northbrasil" with {:method=>:get}):
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing RankingController#index (for 127.0.0.1 at 2010-01-06 19:14:27) [GET]
+Rendering ranking/index
+Completed in 12ms (View: 8, DB: 0) | 200 OK [http://localhost/ranking]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (83.0ms)[0m   [0mCREATE TABLE `schema_migrations` (`version` varchar(255) NOT NULL) ENGINE=InnoDB[0m
+  [4;36;1mSQL (49.3ms)[0m   [0;1mCREATE UNIQUE INDEX `unique_schema_migrations` ON `schema_migrations` (`version`)[0m
+  [4;35;1mSQL (0.6ms)[0m   [0mSHOW TABLES[0m
+  [4;36;1mSQL (0.6ms)[0m   [0;1mSELECT version FROM schema_migrations[0m
+Migrating to CreateResultados (20100106212103)
+  [4;35;1mSQL (5.5ms)[0m   [0mCREATE TABLE `resultados` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `etapa` int(11), `equipe` varchar(255), `cidade` varchar(255), `posicao` int(11), `pontos` int(11), `created_at` datetime, `updated_at` datetime) ENGINE=InnoDB[0m
+  [4;36;1mSQL (16.8ms)[0m   [0;1mINSERT INTO schema_migrations (version) VALUES ('20100106212103')[0m
+  [4;35;1mSQL (0.5ms)[0m   [0mSHOW TABLES[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT version FROM schema_migrations[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSHOW TABLES[0m
+  [4;36;1mSQL (1.0ms)[0m   [0;1mSHOW FIELDS FROM `resultados`[0m
+  [4;35;1mSQL (0.7ms)[0m   [0mdescribe `resultados`[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSHOW KEYS FROM `resultados`[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSELECT version FROM schema_migrations[0m
+Migrating to CreateResultados (20100106212103)
+  [4;36;1mSQL (0.4ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSELECT version FROM schema_migrations[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (0.8ms)[0m   [0mSHOW FIELDS FROM `resultados`[0m
+  [4;36;1mSQL (0.7ms)[0m   [0;1mdescribe `resultados`[0m
+  [4;35;1mSQL (0.5ms)[0m   [0mSHOW KEYS FROM `resultados`[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSELECT version FROM schema_migrations[0m
+Migrating to CreateResultados (20100106212103)
+Migrating to AddData (20100106213536)
+  [4;36;1mResultado Columns (1.1ms)[0m   [0;1mSHOW FIELDS FROM `resultados`[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mResultado Create (20.1ms)[0m   [0;1mINSERT INTO `resultados` (`pontos`, `created_at`, `etapa`, `updated_at`, `posicao`, `cidade`, `equipe`) VALUES(NULL, '2010-01-06 21:37:19', 1, '2010-01-06 21:37:19', NULL, 'sao paulo', 'dojo1')[0m
+  [4;35;1mSQL (16.7ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSQL (39.7ms)[0m   [0;1mINSERT INTO schema_migrations (version) VALUES ('20100106213536')[0m
+  [4;35;1mSQL (0.5ms)[0m   [0mSHOW TABLES[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT version FROM schema_migrations[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSHOW TABLES[0m
+  [4;36;1mSQL (1.2ms)[0m   [0;1mSHOW FIELDS FROM `resultados`[0m
+  [4;35;1mSQL (0.9ms)[0m   [0mdescribe `resultados`[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSHOW KEYS FROM `resultados`[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing RankingController#index (for 127.0.0.1 at 2010-01-06 19:39:37) [GET]
+  [4;36;1mResultado Load (2.3ms)[0m   [0;1mSELECT * FROM `resultados` [0m
+Rendering ranking/index
+  [4;35;1mResultado Columns (1.2ms)[0m   [0mSHOW FIELDS FROM `resultados`[0m
+Completed in 21ms (View: 11, DB: 4) | 200 OK [http://localhost/ranking]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.5ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing RankingController#index (for 127.0.0.1 at 2010-01-06 19:44:41) [GET]
+  [4;36;1mResultado Columns (1.1ms)[0m   [0;1mSHOW FIELDS FROM `resultados`[0m
+  [4;35;1mResultado Load (0.9ms)[0m   [0mSELECT * FROM `resultados` WHERE (`resultados`.`id` = 1) [0m
+Rendering ranking/index
+Completed in 26ms (View: 1, DB: 3) | 200 OK [http://localhost/ranking]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing RankingController#index (for 127.0.0.1 at 2010-01-06 19:57:29) [GET]
+  [4;36;1mResultado Load (0.2ms)[0m   [0;1mSELECT * FROM `resultados` [0m
+Rendering ranking/index
+  [4;35;1mResultado Columns (1.3ms)[0m   [0mSHOW FIELDS FROM `resultados`[0m
+Completed in 19ms (View: 11, DB: 2) | 200 OK [http://localhost/ranking]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing RankingController#index (for 127.0.0.1 at 2010-01-06 19:58:32) [GET]
+  [4;36;1mResultado Load (0.2ms)[0m   [0;1mSELECT * FROM `resultados` [0m
+Rendering ranking/index
+  [4;35;1mResultado Columns (6.5ms)[0m   [0mSHOW FIELDS FROM `resultados`[0m
+Completed in 22ms (View: 8, DB: 7) | 200 OK [http://localhost/ranking]
+  [4;36;1mSQL (0.5ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing RankingController#index (for 127.0.0.1 at 2010-01-06 19:59:58) [GET]
+  [4;36;1mResultado Load (0.5ms)[0m   [0;1mSELECT * FROM `resultados` [0m
+Rendering ranking/index
+  [4;35;1mResultado Columns (1.0ms)[0m   [0mSHOW FIELDS FROM `resultados`[0m
+Completed in 12ms (View: 3, DB: 2) | 200 OK [http://localhost/ranking]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing RankingController#index (for 127.0.0.1 at 2010-01-06 20:00:55) [GET]
+  [4;36;1mResultado Load (3.0ms)[0m   [0;1mSELECT * FROM `resultados` [0m
+Rendering ranking/index
+  [4;35;1mResultado Columns (2.0ms)[0m   [0mSHOW FIELDS FROM `resultados`[0m
+Completed in 102ms (View: 90, DB: 5) | 200 OK [http://localhost/ranking]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing RankingController#index (for 127.0.0.1 at 2010-01-06 20:05:24) [GET]
+  [4;36;1mResultado Load (1.1ms)[0m   [0;1mSELECT * FROM `resultados` [0m
+Rendering ranking/index
+  [4;35;1mResultado Columns (1.1ms)[0m   [0mSHOW FIELDS FROM `resultados`[0m
+Completed in 13ms (View: 4, DB: 2) | 200 OK [http://localhost/ranking]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing RankingController#index (for 127.0.0.1 at 2010-01-06 20:06:24) [GET]
+  [4;36;1mResultado Load (3.0ms)[0m   [0;1mSELECT * FROM `resultados` [0m
+Rendering ranking/index
+  [4;35;1mResultado Columns (1.7ms)[0m   [0mSHOW FIELDS FROM `resultados`[0m
+Completed in 17ms (View: 4, DB: 5) | 200 OK [http://localhost/ranking]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing RankingController#index (for 127.0.0.1 at 2010-01-06 20:09:00) [GET]
+  [4;36;1mResultado Load (110.5ms)[0m   [0;1mSELECT * FROM `resultados` ORDER BY etapa, posicao, equipe, pontos[0m
+Rendering ranking/index
+  [4;35;1mResultado Columns (2.2ms)[0m   [0mSHOW FIELDS FROM `resultados`[0m
+Completed in 129ms (View: 8, DB: 113) | 200 OK [http://localhost/ranking]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing RankingController#index (for 127.0.0.1 at 2010-01-06 20:13:34) [GET]
+  [4;36;1mResultado Load (0.8ms)[0m   [0;1mSELECT * FROM `resultados` ORDER BY etapa, posicao, equipe, pontos[0m
+Rendering ranking/index
+  [4;35;1mResultado Columns (1.2ms)[0m   [0mSHOW FIELDS FROM `resultados`[0m
+Completed in 18ms (View: 10, DB: 2) | 200 OK [http://localhost/ranking]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing RankingController#filter (for 127.0.0.1 at 2010-01-06 20:14:28) [GET]
+  Parameters: {"id"=>"2"}
+
+ActionController::UnknownAction (No action responded to filter. Actions: index):
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#filter (for 127.0.0.1 at 2010-01-06 20:16:00) [GET]
+  Parameters: {"id"=>"2"}
+
+SyntaxError (/home/andre/works/northbrasil/app/controllers/ranking_controller.rb:10: syntax error, unexpected $end, expecting kEND):
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (142.7ms)
+Rendered rescues/_request_and_response (2.0ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing RankingController#filter (for 127.0.0.1 at 2010-01-06 20:16:22) [GET]
+  Parameters: {"id"=>"2"}
+
+ActiveRecord::RecordNotFound (Couldn't find Resultado without an ID):
+  app/controllers/ranking_controller.rb:8:in `filter'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (47.9ms)
+Rendered rescues/_request_and_response (0.5ms)
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing RankingController#filter (for 127.0.0.1 at 2010-01-06 20:16:30) [GET]
+  Parameters: {"id"=>"2"}
+
+ActiveRecord::RecordNotFound (Couldn't find Resultado without an ID):
+  app/controllers/ranking_controller.rb:8:in `filter'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (46.8ms)
+Rendered rescues/_request_and_response (0.5ms)
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing RankingController#filter (for 127.0.0.1 at 2010-01-06 20:16:49) [GET]
+  Parameters: {"id"=>"2"}
+
+ActiveRecord::RecordNotFound (Couldn't find Resultado without an ID):
+  app/controllers/ranking_controller.rb:8:in `filter'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (51.0ms)
+Rendered rescues/_request_and_response (0.6ms)
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing RankingController#filter (for 127.0.0.1 at 2010-01-06 20:17:43) [GET]
+  Parameters: {"id"=>"2"}
+  [4;36;1mResultado Load (1.0ms)[0m   [0;1mSELECT * FROM `resultados` WHERE (etapa=2) ORDER BY etapa, posicao, equipe, pontos[0m
+
+ActionView::MissingTemplate (Missing template ranking/filter.erb in view path app/views):
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (internal_server_error)
+  [4;35;1mSQL (0.2ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing RankingController#filter (for 127.0.0.1 at 2010-01-06 20:19:58) [GET]
+  Parameters: {"id"=>"2"}
+  [4;35;1mResultado Load (2.6ms)[0m   [0mSELECT * FROM `resultados` WHERE (etapa=2) ORDER BY etapa, posicao, equipe, pontos[0m
+  [4;36;1mResultado Load (0.5ms)[0m   [0;1mSELECT * FROM `resultados` ORDER BY etapa, posicao, equipe, pontos[0m
+
+ActionView::MissingTemplate (Missing template resultados/_resultado.erb in view path app/views):
+  app/controllers/ranking_controller.rb:9:in `filter'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (internal_server_error)
+  [4;35;1mSQL (0.2ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing RankingController#filter (for 127.0.0.1 at 2010-01-06 20:20:03) [GET]
+  Parameters: {"id"=>"2"}
+  [4;35;1mResultado Load (2.7ms)[0m   [0mSELECT * FROM `resultados` WHERE (etapa=2) ORDER BY etapa, posicao, equipe, pontos[0m
+  [4;36;1mResultado Load (0.8ms)[0m   [0;1mSELECT * FROM `resultados` ORDER BY etapa, posicao, equipe, pontos[0m
+
+ActionView::MissingTemplate (Missing template resultados/_resultado.erb in view path app/views):
+  app/controllers/ranking_controller.rb:9:in `filter'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (internal_server_error)
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#filter (for 127.0.0.1 at 2010-01-06 20:24:43) [GET]
+  Parameters: {"id"=>"2"}
+
+NameError (uninitialized constant RankingController):
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (130.3ms)
+Rendered rescues/_request_and_response (0.5ms)
+Rendering rescues/layout (internal_server_error)
+  [4;35;1mSQL (0.2ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-01-06 20:25:02) [GET]
+
+ActionController::RoutingError (No route matches "/resultados/filter/2" with {:method=>:get}):
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ResultadosController#filter (for 127.0.0.1 at 2010-01-06 20:26:18) [GET]
+  Parameters: {"id"=>"2"}
+  [4;36;1mResultado Load (0.2ms)[0m   [0;1mSELECT * FROM `resultados` WHERE (etapa=2) ORDER BY etapa, posicao, equipe, pontos[0m
+  [4;35;1mResultado Load (0.1ms)[0m   [0mSELECT * FROM `resultados` ORDER BY etapa, posicao, equipe, pontos[0m
+
+ActionView::MissingTemplate (Missing template resultados/_resultado.erb in view path app/views):
+  app/controllers/resultados_controller.rb:9:in `filter'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ResultadosController#index (for 127.0.0.1 at 2010-01-06 20:26:27) [GET]
+  [4;36;1mResultado Load (2.0ms)[0m   [0;1mSELECT * FROM `resultados` ORDER BY etapa, posicao, equipe, pontos[0m
+
+ActionView::MissingTemplate (Missing template resultados/index.erb in view path app/views):
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (internal_server_error)
+  [4;35;1mSQL (0.2ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ResultadosController#index (for 127.0.0.1 at 2010-01-06 20:27:02) [GET]
+  [4;35;1mResultado Load (0.2ms)[0m   [0mSELECT * FROM `resultados` ORDER BY etapa, posicao, equipe, pontos[0m
+Rendering resultados/index
+  [4;36;1mResultado Columns (1.2ms)[0m   [0;1mSHOW FIELDS FROM `resultados`[0m
+Completed in 25ms (View: 16, DB: 2) | 200 OK [http://localhost/resultados]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ResultadosController#filter (for 127.0.0.1 at 2010-01-06 20:27:06) [GET]
+  Parameters: {"id"=>"1"}
+  [4;35;1mResultado Load (1.7ms)[0m   [0mSELECT * FROM `resultados` WHERE (etapa=1) ORDER BY etapa, posicao, equipe, pontos[0m
+  [4;36;1mResultado Load (0.1ms)[0m   [0;1mSELECT * FROM `resultados` ORDER BY etapa, posicao, equipe, pontos[0m
+
+ActionView::MissingTemplate (Missing template resultados/_resultado.erb in view path app/views):
+  app/controllers/resultados_controller.rb:9:in `filter'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (internal_server_error)
+  [4;35;1mSQL (0.2ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ResultadosController#filter (for 127.0.0.1 at 2010-01-06 20:27:49) [GET]
+  Parameters: {"id"=>"1"}
+  [4;35;1mResultado Load (1.2ms)[0m   [0mSELECT * FROM `resultados` WHERE (etapa=1) ORDER BY etapa, posicao, equipe, pontos[0m
+  [4;36;1mResultado Load (0.4ms)[0m   [0;1mSELECT * FROM `resultados` ORDER BY etapa, posicao, equipe, pontos[0m
+  [4;35;1mResultado Columns (3.1ms)[0m   [0mSHOW FIELDS FROM `resultados`[0m
+Rendered resultados/_resultado (9.2ms)
+Rendered resultados/_resultado (1.4ms)
+Rendered resultados/_resultado (1.4ms)
+Rendered resultados/_resultado (1.4ms)
+Rendered resultados/_resultado (1.4ms)
+Rendered resultados/_resultado (1.4ms)
+Completed in 118ms (View: 106, DB: 5) | 200 OK [http://localhost/resultados/filter/1]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ResultadosController#filter (for 127.0.0.1 at 2010-01-06 20:29:38) [GET]
+  Parameters: {"id"=>"1"}
+  [4;36;1mResultado Load (0.6ms)[0m   [0;1mSELECT * FROM `resultados` WHERE (etapa=1) ORDER BY etapa, posicao, equipe, pontos[0m
+Rendering resultados/filter
+  [4;35;1mResultado Columns (1.2ms)[0m   [0mSHOW FIELDS FROM `resultados`[0m
+Completed in 24ms (View: 13, DB: 2) | 200 OK [http://localhost/resultados/filter/1]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ResultadosController#filter (for 127.0.0.1 at 2010-01-06 20:33:43) [GET]
+  Parameters: {"id"=>"1"}
+  [4;36;1mResultado Load (0.2ms)[0m   [0;1mSELECT * FROM `resultados` WHERE (etapa=1) ORDER BY etapa, posicao, equipe, pontos[0m
+Rendering resultados/filter
+  [4;35;1mResultado Columns (1.2ms)[0m   [0mSHOW FIELDS FROM `resultados`[0m
+Completed in 23ms (View: 14, DB: 2) | 200 OK [http://localhost/resultados/filter/1]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ResultadosController#filter (for 127.0.0.1 at 2010-01-06 20:34:00) [GET]
+  Parameters: {"id"=>"1"}
+  [4;36;1mResultado Load (0.2ms)[0m   [0;1mSELECT * FROM `resultados` WHERE (etapa=1) ORDER BY etapa, posicao, equipe, pontos[0m
+Rendering resultados/filter
+  [4;35;1mResultado Columns (3.0ms)[0m   [0mSHOW FIELDS FROM `resultados`[0m
+Completed in 18ms (View: 9, DB: 3) | 200 OK [http://localhost/resultados/filter/1]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ResultadosController#index (for 127.0.0.1 at 2010-01-06 20:34:02) [GET]
+  [4;36;1mResultado Load (0.2ms)[0m   [0;1mSELECT * FROM `resultados` ORDER BY etapa, posicao, equipe, pontos[0m
+Rendering resultados/index
+  [4;35;1mResultado Columns (1.2ms)[0m   [0mSHOW FIELDS FROM `resultados`[0m
+Completed in 14ms (View: 6, DB: 2) | 200 OK [http://localhost/resultados]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ResultadosController#index (for 127.0.0.1 at 2010-01-06 20:37:26) [GET]
+  [4;36;1mResultado Load (0.2ms)[0m   [0;1mSELECT * FROM `resultados` ORDER BY etapa, posicao, equipe, pontos[0m
+Rendering resultados/index
+  [4;35;1mResultado Columns (1.1ms)[0m   [0mSHOW FIELDS FROM `resultados`[0m
+Completed in 16ms (View: 7, DB: 1) | 200 OK [http://localhost/resultados]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ResultadosController#filter (for 127.0.0.1 at 2010-01-06 20:37:29) [GET]
+  Parameters: {"id"=>"1"}
+  [4;36;1mResultado Load (0.0ms)[0m   [0;1mMysql::Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '=1) ORDER BY etapa, posicao, equipe, pontos' at line 1: SELECT * FROM `resultados` WHERE (=1) ORDER BY etapa, posicao, equipe, pontos[0m
+
+ActiveRecord::StatementInvalid (Mysql::Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '=1)  ORDER BY etapa, posicao, equipe, pontos' at line 1: SELECT * FROM `resultados` WHERE (=1)  ORDER BY etapa, posicao, equipe, pontos):
+  app/controllers/resultados_controller.rb:8:in `filter'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (159.3ms)
+Rendered rescues/_request_and_response (2.1ms)
+Rendering rescues/layout (internal_server_error)
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ResultadosController#index (for 127.0.0.1 at 2010-01-06 20:39:26) [GET]
+  [4;35;1mResultado Load (0.2ms)[0m   [0mSELECT * FROM `resultados` ORDER BY etapa, posicao, equipe, pontos[0m
+Rendering resultados/index
+  [4;36;1mResultado Columns (1.3ms)[0m   [0;1mSHOW FIELDS FROM `resultados`[0m
+Completed in 21ms (View: 10, DB: 2) | 200 OK [http://localhost/resultados]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ResultadosController#filter (for 127.0.0.1 at 2010-01-06 20:39:28) [GET]
+  Parameters: {"id"=>"1", "criterio"=>"etapa"}
+  [4;35;1mResultado Load (0.2ms)[0m   [0mSELECT * FROM `resultados` WHERE (etapa=1) ORDER BY etapa, posicao, equipe, pontos[0m
+Rendering resultados/filter
+  [4;36;1mResultado Columns (1.2ms)[0m   [0;1mSHOW FIELDS FROM `resultados`[0m
+Completed in 21ms (View: 13, DB: 2) | 200 OK [http://localhost/resultados/filter/1?criterio=etapa]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ResultadosController#index (for 127.0.0.1 at 2010-01-06 20:39:33) [GET]
+  [4;35;1mResultado Load (0.2ms)[0m   [0mSELECT * FROM `resultados` ORDER BY etapa, posicao, equipe, pontos[0m
+Rendering resultados/index
+  [4;36;1mResultado Columns (5.1ms)[0m   [0;1mSHOW FIELDS FROM `resultados`[0m
+Completed in 18ms (View: 5, DB: 5) | 200 OK [http://localhost/resultados]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ResultadosController#filter (for 127.0.0.1 at 2010-01-06 20:39:37) [GET]
+  Parameters: {"id"=>"1", "criterio"=>"etapa"}
+  [4;35;1mResultado Load (2.5ms)[0m   [0mSELECT * FROM `resultados` WHERE (etapa=1) ORDER BY etapa, posicao, equipe, pontos[0m
+Rendering resultados/filter
+  [4;36;1mResultado Columns (1.2ms)[0m   [0;1mSHOW FIELDS FROM `resultados`[0m
+Completed in 15ms (View: 5, DB: 4) | 200 OK [http://localhost/resultados/filter/1?criterio=etapa]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ResultadosController#index (for 127.0.0.1 at 2010-01-06 20:39:45) [GET]
+  [4;35;1mResultado Load (0.2ms)[0m   [0mSELECT * FROM `resultados` ORDER BY etapa, posicao, equipe, pontos[0m
+Rendering resultados/index
+  [4;36;1mResultado Columns (1.2ms)[0m   [0;1mSHOW FIELDS FROM `resultados`[0m
+Completed in 16ms (View: 6, DB: 2) | 200 OK [http://localhost/resultados]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ResultadosController#index (for 127.0.0.1 at 2010-01-06 20:41:15) [GET]
+  [4;35;1mResultado Load (0.2ms)[0m   [0mSELECT * FROM `resultados` ORDER BY etapa, posicao, equipe, pontos[0m
+Rendering resultados/index
+  [4;36;1mResultado Columns (2.1ms)[0m   [0;1mSHOW FIELDS FROM `resultados`[0m
+Completed in 23ms (View: 12, DB: 3) | 200 OK [http://localhost/resultados]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ResultadosController#filter (for 127.0.0.1 at 2010-01-06 20:41:16) [GET]
+  Parameters: {"id"=>"dalai", "criterio"=>"equipe"}
+  [4;35;1mResultado Load (0.0ms)[0m   [0mMysql::Error: Unknown column 'dalai' in 'where clause': SELECT * FROM `resultados` WHERE (equipe=dalai) ORDER BY etapa, posicao, equipe, pontos[0m
+
+ActiveRecord::StatementInvalid (Mysql::Error: Unknown column 'dalai' in 'where clause': SELECT * FROM `resultados` WHERE (equipe=dalai)  ORDER BY etapa, posicao, equipe, pontos):
+  app/controllers/resultados_controller.rb:8:in `filter'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (55.9ms)
+Rendered rescues/_request_and_response (0.5ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ResultadosController#filter (for 127.0.0.1 at 2010-01-06 20:41:50) [GET]
+  Parameters: {"id"=>"dalai", "criterio"=>"equipe"}
+  [4;36;1mResultado Load (0.0ms)[0m   [0;1mMysql::Error: Unknown column 'dalai' in 'where clause': SELECT * FROM `resultados` WHERE (equipe=dalai) ORDER BY etapa, posicao, equipe, pontos[0m
+
+ActiveRecord::StatementInvalid (Mysql::Error: Unknown column 'dalai' in 'where clause': SELECT * FROM `resultados` WHERE (equipe=dalai)  ORDER BY etapa, posicao, equipe, pontos):
+  app/controllers/resultados_controller.rb:8:in `filter'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (51.7ms)
+Rendered rescues/_request_and_response (0.5ms)
+Rendering rescues/layout (internal_server_error)
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ResultadosController#filter (for 127.0.0.1 at 2010-01-06 20:42:22) [GET]
+  Parameters: {"id"=>"piracicaba", "criterio"=>"cidade"}
+  [4;35;1mResultado Load (3.1ms)[0m   [0mSELECT * FROM `resultados` WHERE (cidade='piracicaba') ORDER BY etapa, posicao, equipe, pontos[0m
+Rendering resultados/filter
+  [4;36;1mResultado Columns (1.1ms)[0m   [0;1mSHOW FIELDS FROM `resultados`[0m
+Completed in 15ms (View: 4, DB: 4) | 200 OK [http://localhost/resultados/filter/piracicaba?criterio=cidade]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ResultadosController#index (for 127.0.0.1 at 2010-01-06 20:42:24) [GET]
+  [4;35;1mResultado Load (0.2ms)[0m   [0mSELECT * FROM `resultados` ORDER BY etapa, posicao, equipe, pontos[0m
+Rendering resultados/index
+  [4;36;1mResultado Columns (3.1ms)[0m   [0;1mSHOW FIELDS FROM `resultados`[0m
+Completed in 119ms (View: 8, DB: 3) | 200 OK [http://localhost/resultados]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ResultadosController#filter (for 127.0.0.1 at 2010-01-06 20:42:25) [GET]
+  Parameters: {"id"=>"1", "criterio"=>"etapa"}
+  [4;35;1mResultado Load (1.2ms)[0m   [0mSELECT * FROM `resultados` WHERE (etapa='1') ORDER BY etapa, posicao, equipe, pontos[0m
+Rendering resultados/filter
+  [4;36;1mResultado Columns (1.2ms)[0m   [0;1mSHOW FIELDS FROM `resultados`[0m
+Completed in 17ms (View: 5, DB: 3) | 200 OK [http://localhost/resultados/filter/1?criterio=etapa]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ResultadosController#index (for 127.0.0.1 at 2010-01-06 20:42:26) [GET]
+  [4;35;1mResultado Load (0.2ms)[0m   [0mSELECT * FROM `resultados` ORDER BY etapa, posicao, equipe, pontos[0m
+Rendering resultados/index
+  [4;36;1mResultado Columns (2.1ms)[0m   [0;1mSHOW FIELDS FROM `resultados`[0m
+Completed in 19ms (View: 8, DB: 2) | 200 OK [http://localhost/resultados]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ResultadosController#filter (for 127.0.0.1 at 2010-01-06 20:42:27) [GET]
+  Parameters: {"id"=>"dojo1", "criterio"=>"equipe"}
+  [4;35;1mResultado Load (2.9ms)[0m   [0mSELECT * FROM `resultados` WHERE (equipe='dojo1') ORDER BY etapa, posicao, equipe, pontos[0m
+Rendering resultados/filter
+  [4;36;1mResultado Columns (1.0ms)[0m   [0;1mSHOW FIELDS FROM `resultados`[0m
+Completed in 16ms (View: 4, DB: 4) | 200 OK [http://localhost/resultados/filter/dojo1?criterio=equipe]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ResultadosController#index (for 127.0.0.1 at 2010-01-06 20:42:28) [GET]
+  [4;35;1mResultado Load (0.2ms)[0m   [0mSELECT * FROM `resultados` ORDER BY etapa, posicao, equipe, pontos[0m
+Rendering resultados/index
+  [4;36;1mResultado Columns (3.6ms)[0m   [0;1mSHOW FIELDS FROM `resultados`[0m
+Completed in 19ms (View: 8, DB: 4) | 200 OK [http://localhost/resultados]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ResultadosController#filter (for 127.0.0.1 at 2010-01-06 20:42:30) [GET]
+  Parameters: {"id"=>"teste", "criterio"=>"equipe"}
+  [4;35;1mResultado Load (2.6ms)[0m   [0mSELECT * FROM `resultados` WHERE (equipe='teste') ORDER BY etapa, posicao, equipe, pontos[0m
+Rendering resultados/filter
+  [4;36;1mResultado Columns (1.0ms)[0m   [0;1mSHOW FIELDS FROM `resultados`[0m
+Completed in 15ms (View: 4, DB: 4) | 200 OK [http://localhost/resultados/filter/teste?criterio=equipe]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ResultadosController#index (for 127.0.0.1 at 2010-01-06 20:42:30) [GET]
+  [4;35;1mResultado Load (0.2ms)[0m   [0mSELECT * FROM `resultados` ORDER BY etapa, posicao, equipe, pontos[0m
+Rendering resultados/index
+  [4;36;1mResultado Columns (1.1ms)[0m   [0;1mSHOW FIELDS FROM `resultados`[0m
+Completed in 18ms (View: 7, DB: 2) | 200 OK [http://localhost/resultados]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ResultadosController#filter (for 127.0.0.1 at 2010-01-06 20:42:32) [GET]
+  Parameters: {"id"=>"campinas", "criterio"=>"cidade"}
+  [4;35;1mResultado Load (3.2ms)[0m   [0mSELECT * FROM `resultados` WHERE (cidade='campinas') ORDER BY etapa, posicao, equipe, pontos[0m
+Rendering resultados/filter
+  [4;36;1mResultado Columns (1.1ms)[0m   [0;1mSHOW FIELDS FROM `resultados`[0m
+Completed in 16ms (View: 4, DB: 5) | 200 OK [http://localhost/resultados/filter/campinas?criterio=cidade]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ResultadosController#index (for 127.0.0.1 at 2010-01-06 20:42:33) [GET]
+  [4;35;1mResultado Load (0.2ms)[0m   [0mSELECT * FROM `resultados` ORDER BY etapa, posicao, equipe, pontos[0m
+Rendering resultados/index
+  [4;36;1mResultado Columns (3.3ms)[0m   [0;1mSHOW FIELDS FROM `resultados`[0m
+Completed in 19ms (View: 8, DB: 4) | 200 OK [http://localhost/resultados]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ResultadosController#filter (for 127.0.0.1 at 2010-01-06 20:42:35) [GET]
+  Parameters: {"id"=>"2", "criterio"=>"etapa"}
+  [4;35;1mResultado Load (0.7ms)[0m   [0mSELECT * FROM `resultados` WHERE (etapa='2') ORDER BY etapa, posicao, equipe, pontos[0m
+Rendering resultados/filter
+  [4;36;1mResultado Columns (1.0ms)[0m   [0;1mSHOW FIELDS FROM `resultados`[0m
+Completed in 13ms (View: 4, DB: 2) | 200 OK [http://localhost/resultados/filter/2?criterio=etapa]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ResultadosController#index (for 127.0.0.1 at 2010-01-06 20:42:36) [GET]
+  [4;35;1mResultado Load (0.2ms)[0m   [0mSELECT * FROM `resultados` ORDER BY etapa, posicao, equipe, pontos[0m
+Rendering resultados/index
+  [4;36;1mResultado Columns (2.9ms)[0m   [0;1mSHOW FIELDS FROM `resultados`[0m
+Completed in 22ms (View: 8, DB: 3) | 200 OK [http://localhost/resultados]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ResultadosController#filter (for 127.0.0.1 at 2010-01-06 20:42:37) [GET]
+  Parameters: {"id"=>"dojo2", "criterio"=>"equipe"}
+  [4;35;1mResultado Load (1.3ms)[0m   [0mSELECT * FROM `resultados` WHERE (equipe='dojo2') ORDER BY etapa, posicao, equipe, pontos[0m
+Rendering resultados/filter
+  [4;36;1mResultado Columns (5.6ms)[0m   [0;1mSHOW FIELDS FROM `resultados`[0m
+Completed in 19ms (View: 4, DB: 7) | 200 OK [http://localhost/resultados/filter/dojo2?criterio=equipe]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ResultadosController#index (for 127.0.0.1 at 2010-01-06 20:42:39) [GET]
+  [4;35;1mResultado Load (2.6ms)[0m   [0mSELECT * FROM `resultados` ORDER BY etapa, posicao, equipe, pontos[0m
+Rendering resultados/index
+  [4;36;1mResultado Columns (1.8ms)[0m   [0;1mSHOW FIELDS FROM `resultados`[0m
+Completed in 21ms (View: 9, DB: 5) | 200 OK [http://localhost/resultados]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSELECT version FROM schema_migrations[0m
+Migrating to CreateResultados (20100106212103)
+Migrating to AddData (20100106213536)
+Migrating to CreateNovoResultados (20100106224411)
+  [4;36;1mSQL (4.3ms)[0m   [0;1mCREATE TABLE `novo_resultados` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `equipe` varchar(255), `etapa` int(11), `cidade` varchar(255), `pontos` int(11), `posicao` int(11), `created_at` datetime, `updated_at` datetime) ENGINE=InnoDB[0m
+  [4;35;1mSQL (0.5ms)[0m   [0mINSERT INTO schema_migrations (version) VALUES ('20100106224411')[0m
+  [4;36;1mSQL (4.2ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (1.2ms)[0m   [0mSELECT version FROM schema_migrations[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (1.0ms)[0m   [0mSHOW FIELDS FROM `novo_resultados`[0m
+  [4;36;1mSQL (3.6ms)[0m   [0;1mdescribe `novo_resultados`[0m
+  [4;35;1mSQL (0.4ms)[0m   [0mSHOW KEYS FROM `novo_resultados`[0m
+  [4;36;1mSQL (8.1ms)[0m   [0;1mSHOW FIELDS FROM `resultados`[0m
+  [4;35;1mSQL (4.7ms)[0m   [0mdescribe `resultados`[0m
+  [4;36;1mSQL (1.2ms)[0m   [0;1mSHOW KEYS FROM `resultados`[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-01-06 20:44:36) [GET]
+
+ActionController::RoutingError (No route matches "/novos_resultados" with {:method=>:get}):
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+  [4;35;1mSQL (0.2ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing NovoResultadosController#index (for 127.0.0.1 at 2010-01-06 20:44:40) [GET]
+  [4;35;1mNovoResultado Load (1.9ms)[0m   [0mSELECT * FROM `novo_resultados` [0m
+Rendering template within layouts/novo_resultados
+Rendering novo_resultados/index
+Completed in 33ms (View: 22, DB: 2) | 200 OK [http://localhost/novo_resultados]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing NovoResultadosController#new (for 127.0.0.1 at 2010-01-06 20:44:44) [GET]
+  [4;36;1mNovoResultado Columns (1.2ms)[0m   [0;1mSHOW FIELDS FROM `novo_resultados`[0m
+Rendering template within layouts/novo_resultados
+Rendering novo_resultados/new
+Completed in 20ms (View: 11, DB: 2) | 200 OK [http://localhost/novo_resultados/new]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing NovoResultadosController#create (for 127.0.0.1 at 2010-01-06 20:44:55) [POST]
+  Parameters: {"commit"=>"Create", "novo_resultado"=>{"pontos"=>"10", "etapa"=>"1", "posicao"=>"1", "cidade"=>"sp", "equipe"=>"test"}, "authenticity_token"=>"2RBEs4G8v2Cgus01s4RtU8qca8LqHH8A12dHOhxYgmY="}
+  [4;35;1mNovoResultado Columns (1.2ms)[0m   [0mSHOW FIELDS FROM `novo_resultados`[0m
+  [4;36;1mSQL (1.0ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mNovoResultado Create (1.1ms)[0m   [0mINSERT INTO `novo_resultados` (`pontos`, `created_at`, `etapa`, `updated_at`, `posicao`, `cidade`, `equipe`) VALUES(10, '2010-01-06 22:44:55', 1, '2010-01-06 22:44:55', 1, 'sp', 'test')[0m
+  [4;36;1mSQL (11.3ms)[0m   [0;1mCOMMIT[0m
+Redirected to http://localhost:3000/novo_resultados/1
+Completed in 44ms (DB: 15) | 302 Found [http://localhost/novo_resultados]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing NovoResultadosController#show (for 127.0.0.1 at 2010-01-06 20:44:55) [GET]
+  Parameters: {"id"=>"1"}
+  [4;35;1mNovoResultado Columns (1.2ms)[0m   [0mSHOW FIELDS FROM `novo_resultados`[0m
+  [4;36;1mNovoResultado Load (0.3ms)[0m   [0;1mSELECT * FROM `novo_resultados` WHERE (`novo_resultados`.`id` = 1) [0m
+Rendering template within layouts/novo_resultados
+Rendering novo_resultados/show
+Completed in 20ms (View: 10, DB: 2) | 200 OK [http://localhost/novo_resultados/1]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing NovoResultadosController#index (for 127.0.0.1 at 2010-01-06 20:44:57) [GET]
+  [4;35;1mNovoResultado Load (0.5ms)[0m   [0mSELECT * FROM `novo_resultados` [0m
+Rendering template within layouts/novo_resultados
+Rendering novo_resultados/index
+  [4;36;1mNovoResultado Columns (4.7ms)[0m   [0;1mSHOW FIELDS FROM `novo_resultados`[0m
+Completed in 19ms (View: 6, DB: 5) | 200 OK [http://localhost/novo_resultados]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing NovoResultadosController#new (for 127.0.0.1 at 2010-01-06 20:44:58) [GET]
+  [4;35;1mNovoResultado Columns (5.1ms)[0m   [0mSHOW FIELDS FROM `novo_resultados`[0m
+Rendering template within layouts/novo_resultados
+Rendering novo_resultados/new
+Completed in 22ms (View: 6, DB: 5) | 200 OK [http://localhost/novo_resultados/new]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing NovoResultadosController#show (for 127.0.0.1 at 2010-01-06 20:45:11) [GET]
+  Parameters: {"id"=>"1"}
+  [4;36;1mNovoResultado Columns (1.9ms)[0m   [0;1mSHOW FIELDS FROM `novo_resultados`[0m
+  [4;35;1mNovoResultado Load (1.2ms)[0m   [0mSELECT * FROM `novo_resultados` WHERE (`novo_resultados`.`id` = 1) [0m
+Rendering template within layouts/novo_resultados
+Rendering novo_resultados/show
+Completed in 28ms (View: 10, DB: 3) | 200 OK [http://localhost/novo_resultados/1]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing NovoResultadosController#edit (for 127.0.0.1 at 2010-01-06 20:45:13) [GET]
+  Parameters: {"id"=>"1"}
+  [4;36;1mNovoResultado Columns (6.2ms)[0m   [0;1mSHOW FIELDS FROM `novo_resultados`[0m
+  [4;35;1mNovoResultado Load (0.1ms)[0m   [0mSELECT * FROM `novo_resultados` WHERE (`novo_resultados`.`id` = 1) [0m
+Rendering template within layouts/novo_resultados
+Rendering novo_resultados/edit
+Completed in 26ms (View: 12, DB: 7) | 200 OK [http://localhost/novo_resultados/1/edit]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.7ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing NovoResultadosController#index (for 127.0.0.1 at 2010-01-06 20:45:15) [GET]
+  [4;36;1mNovoResultado Load (0.2ms)[0m   [0;1mSELECT * FROM `novo_resultados` [0m
+Rendering template within layouts/novo_resultados
+Rendering novo_resultados/index
+  [4;35;1mNovoResultado Columns (1.1ms)[0m   [0mSHOW FIELDS FROM `novo_resultados`[0m
+Completed in 16ms (View: 6, DB: 2) | 200 OK [http://localhost/novo_resultados]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing NovoResultadosController#index to xml (for 127.0.0.1 at 2010-01-06 20:46:33) [GET]
+  [4;36;1mNovoResultado Load (0.2ms)[0m   [0;1mSELECT * FROM `novo_resultados` [0m
+  [4;35;1mNovoResultado Columns (3.8ms)[0m   [0mSHOW FIELDS FROM `novo_resultados`[0m
+Completed in 354ms (View: 342, DB: 4) | 200 OK [http://localhost/novo_resultados.xml]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing NovoResultadosController#new (for 127.0.0.1 at 2010-01-06 20:48:04) [GET]
+  [4;36;1mNovoResultado Columns (3.3ms)[0m   [0;1mSHOW FIELDS FROM `novo_resultados`[0m
+Rendering template within layouts/novo_resultados
+Rendering novo_resultados/new
+Completed in 18ms (View: 7, DB: 4) | 200 OK [http://localhost/novo_resultados/new]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing NovoResultadosController#create (for 127.0.0.1 at 2010-01-06 20:48:15) [POST]
+  Parameters: {"commit"=>"Create", "novo_resultado"=>{"pontos"=>"9", "etapa"=>"2", "posicao"=>"2", "cidade"=>"sp", "equipe"=>"test2"}, "authenticity_token"=>"2RBEs4G8v2Cgus01s4RtU8qca8LqHH8A12dHOhxYgmY="}
+  [4;35;1mNovoResultado Columns (1.2ms)[0m   [0mSHOW FIELDS FROM `novo_resultados`[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mNovoResultado Create (0.9ms)[0m   [0mINSERT INTO `novo_resultados` (`pontos`, `created_at`, `etapa`, `updated_at`, `posicao`, `cidade`, `equipe`) VALUES(9, '2010-01-06 22:48:16', 2, '2010-01-06 22:48:16', 2, 'sp', 'test2')[0m
+  [4;36;1mSQL (3.0ms)[0m   [0;1mCOMMIT[0m
+Redirected to http://localhost:3000/novo_resultados/2
+Completed in 33ms (DB: 5) | 302 Found [http://localhost/novo_resultados]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing NovoResultadosController#show (for 127.0.0.1 at 2010-01-06 20:48:16) [GET]
+  Parameters: {"id"=>"2"}
+  [4;35;1mNovoResultado Columns (3.0ms)[0m   [0mSHOW FIELDS FROM `novo_resultados`[0m
+  [4;36;1mNovoResultado Load (0.5ms)[0m   [0;1mSELECT * FROM `novo_resultados` WHERE (`novo_resultados`.`id` = 2) [0m
+Rendering template within layouts/novo_resultados
+Rendering novo_resultados/show
+Completed in 15ms (View: 4, DB: 4) | 200 OK [http://localhost/novo_resultados/2]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing NovoResultadosController#index to xml (for 127.0.0.1 at 2010-01-06 20:48:20) [GET]
+  [4;35;1mNovoResultado Load (2.4ms)[0m   [0mSELECT * FROM `novo_resultados` [0m
+  [4;36;1mNovoResultado Columns (4.0ms)[0m   [0;1mSHOW FIELDS FROM `novo_resultados`[0m
+Completed in 32ms (View: 10, DB: 7) | 200 OK [http://localhost/novo_resultados.xml]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing NovoResultadosController#show to xml (for 127.0.0.1 at 2010-01-06 20:48:37) [GET]
+  Parameters: {"id"=>"1"}
+  [4;35;1mNovoResultado Columns (1.3ms)[0m   [0mSHOW FIELDS FROM `novo_resultados`[0m
+  [4;36;1mNovoResultado Load (0.4ms)[0m   [0;1mSELECT * FROM `novo_resultados` WHERE (`novo_resultados`.`id` = 1) [0m
+Completed in 16ms (View: 4, DB: 2) | 200 OK [http://localhost/novo_resultados/1.xml]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing NovoResultadosController#index (for 127.0.0.1 at 2010-01-06 20:48:46) [GET]
+  [4;35;1mNovoResultado Load (0.5ms)[0m   [0mSELECT * FROM `novo_resultados` [0m
+Rendering template within layouts/novo_resultados
+Rendering novo_resultados/index
+  [4;36;1mNovoResultado Columns (1.4ms)[0m   [0;1mSHOW FIELDS FROM `novo_resultados`[0m
+Completed in 17ms (View: 7, DB: 2) | 200 OK [http://localhost/novo_resultados]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing NovoResultadosController#new (for 127.0.0.1 at 2010-01-06 20:49:25) [GET]
+  [4;35;1mNovoResultado Columns (1.3ms)[0m   [0mSHOW FIELDS FROM `novo_resultados`[0m
+Rendering template within layouts/novo_resultados
+Rendering novo_resultados/new
+Completed in 125ms (View: 7, DB: 2) | 200 OK [http://localhost/novo_resultados/new]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing NovoResultadosController#create (for 127.0.0.1 at 2010-01-06 20:49:30) [POST]
+  Parameters: {"commit"=>"Create", "novo_resultado"=>{"pontos"=>"", "etapa"=>"", "posicao"=>"", "cidade"=>"", "equipe"=>""}, "authenticity_token"=>"2RBEs4G8v2Cgus01s4RtU8qca8LqHH8A12dHOhxYgmY="}
+  [4;36;1mNovoResultado Columns (1.2ms)[0m   [0;1mSHOW FIELDS FROM `novo_resultados`[0m
+  [4;35;1mSQL (2.9ms)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (1.4ms)[0m   [0;1mROLLBACK[0m
+Rendering template within layouts/novo_resultados
+Rendering novo_resultados/new
+Completed in 27ms (View: 5, DB: 6) | 200 OK [http://localhost/novo_resultados]
+  [4;35;1mSQL (0.3ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing NovoResultadosController#create (for 127.0.0.1 at 2010-01-06 20:49:51) [POST]
+  Parameters: {"commit"=>"Create", "novo_resultado"=>{"pontos"=>"", "etapa"=>"", "posicao"=>"", "cidade"=>"", "equipe"=>""}, "authenticity_token"=>"2RBEs4G8v2Cgus01s4RtU8qca8LqHH8A12dHOhxYgmY="}
+  [4;35;1mNovoResultado Columns (1.2ms)[0m   [0mSHOW FIELDS FROM `novo_resultados`[0m
+  [4;36;1mSQL (4.4ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (9.2ms)[0m   [0mROLLBACK[0m
+Rendering template within layouts/novo_resultados
+Rendering novo_resultados/new
+Completed in 39ms (View: 6, DB: 15) | 200 OK [http://localhost/novo_resultados]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing NovoResultadosController#index to xml (for 127.0.0.1 at 2010-01-06 20:50:31) [GET]
+  [4;36;1mNovoResultado Load (0.2ms)[0m   [0;1mSELECT * FROM `novo_resultados` [0m
+  [4;35;1mNovoResultado Columns (1.3ms)[0m   [0mSHOW FIELDS FROM `novo_resultados`[0m
+Completed in 17ms (View: 8, DB: 2) | 200 OK [http://localhost/novo_resultados.xml]

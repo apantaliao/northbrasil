@@ -1,0 +1,21 @@
+BOM
+
+- Explicacao
+- Funcionou
+- Bastante Gente
+- Esclarecedor
+
+
+RUIM
+
+- Notebook
+- Conversas paralela
+- Falta de TDD
+- Dispersão
+- Adelson
+
+COMENTARIOS
+
+- Enviar Tópicos que serão abordados no Dojo.
+
+

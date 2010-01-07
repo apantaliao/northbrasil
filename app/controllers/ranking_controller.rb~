@@ -1,0 +1,11 @@
+class RankingController < ApplicationController
+  def index
+    @resultados=Resultado.find(:all, :order => "etapa, posicao, equipe, pontos")
+   
+  end
+
+  def filter
+    @resultados=Resultado.find(:all, :conditions => "etapa=#{params[:id]}", :order => "etapa, posicao, equipe, pontos")
+  end
+
+end
